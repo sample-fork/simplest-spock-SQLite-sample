@@ -19,8 +19,6 @@ import qualified Data.Text                   as T
 import           Data.Time                   (UTCTime, addUTCTime)
 import           Data.Time.Clock             (getCurrentTime)
 
-import           Data.Monoid
-
 import           Database.Persist.Sql        (SqlBackend, runMigrationSilent, toSqlKey)
 
 import           Database.Persist
