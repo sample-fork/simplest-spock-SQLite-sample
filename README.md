@@ -1,1 +1,1 @@
-# simplest-spock-SQLite-sample
+# Gaweku, simple microservice sample application using Spock and SQLite
