@@ -76,4 +76,4 @@ runApp = do
 main :: IO ()
 main = do
    runSQL $ runMigrationSilent migrateAll
-   liftIO $ W.runSpock 80 $ W.spockT id runApp
+   liftIO $ W.runSpock 8080 $ W.spockT id runApp
